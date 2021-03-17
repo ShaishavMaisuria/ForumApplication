@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ForumApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="StringName">Name</string>
+    <string name="StringEmail">Email</string>
+    <string name="StringPassword">Password</string>
+    <string name="StringButtonLogin">Log In</string>
+    <string name="StringButtonCreateNewAccount">Create New Account</string>
+    <string name="StringButtonSubmit">Submit</string>
+    <string name="StringCancel">Cancel</string>
+    <string name="stringLogout">Log Out</string>
+    <string name="StringNewForum">New Forum</string>
+
+</resources>

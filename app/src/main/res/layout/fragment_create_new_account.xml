@@ -1,0 +1,72 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".CreateNewAccount">
+
+<EditText
+    android:id="@+id/editextPersonNameRegister"
+    android:layout_width="352dp"
+    android:layout_height="68dp"
+    android:layout_marginTop="28dp"
+    android:ems="10"
+    android:hint="@string/StringName"
+    android:inputType="textPersonName"
+    android:textSize="24sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.491"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<EditText
+    android:id="@+id/editTextEmailAddressRegister"
+    android:layout_width="348dp"
+    android:layout_height="67dp"
+    android:layout_marginTop="44dp"
+    android:ems="10"
+    android:hint="@string/StringEmail"
+    android:inputType="textEmailAddress"
+    android:textSize="24sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.523"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editextPersonNameRegister" />
+
+<EditText
+    android:id="@+id/editTextPasswordRegister"
+    android:layout_width="0dp"
+    android:layout_height="67dp"
+    android:layout_marginTop="20dp"
+    android:ems="10"
+    android:hint="@string/StringPassword"
+    android:inputType="textPassword"
+    android:textSize="24sp"
+    app:layout_constraintEnd_toEndOf="@+id/editTextEmailAddressRegister"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="@+id/editTextEmailAddressRegister"
+    app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddressRegister" />
+
+<Button
+    android:id="@+id/buttonSubmitRegister"
+    android:layout_width="352dp"
+    android:layout_height="59dp"
+    android:layout_marginTop="60dp"
+    android:text="@string/StringButtonSubmit"
+    app:layout_constraintEnd_toEndOf="@+id/editTextPasswordRegister"
+    app:layout_constraintHorizontal_bias="0.49"
+    app:layout_constraintStart_toStartOf="@+id/editTextPasswordRegister"
+    app:layout_constraintTop_toBottomOf="@+id/editTextPasswordRegister" />
+
+<Button
+    android:id="@+id/buttonCancelRegister"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/StringCancel"
+    app:layout_constraintEnd_toEndOf="@+id/buttonSubmitRegister"
+    app:layout_constraintHorizontal_bias="0.993"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/buttonSubmitRegister" />
+</androidx.constraintlayout.widget.ConstraintLayout>
